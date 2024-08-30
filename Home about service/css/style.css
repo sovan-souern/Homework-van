@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    background-color: rgb(235, 222, 222);
+}
+.heading ul {
+    list-style: none;
+    display: flex;
+ 
+}
+.heading ul li {
+    padding: 20px;
+}
+.heading ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.heading ul li a:hover{
+    background: gray;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: rgb(214, 212, 212);
+    border-radius: 15px;
+    margin: 5px;
+    padding: 30px;
+    flex: 2;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+
+}
+h1{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.card1 {
+    background-color: rgb(214, 212, 212);
+    border-radius: 15px;
+    margin: 5px;
+    padding: 100px;
+    flex: 2;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 30px;
+}
+main{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+aside{
+    width: 70%;
+    height: 80vh;
+    margin-right: 100px;
+}
+.box {
+  
+   border-radius: 15px;
+   background-color: #f5e7e7;
+   font-size: 30px;
+}
+.box h1{
+    width: 100%;
+    height:70vh;
+    align-content: center;
+ }
+ .text p {
+    margin-top: 20px;
+ }
+ .text h2{
+    margin-top: 20px;
+ }
+
+table{
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-left: 130px;
+}
+table td,th{
+   padding: 10px;
+}
+thead{
+    background-color: rgb(15, 141, 141);
+}
+.home1, td:nth-child(1) {
+    background-color: rgb(158, 143, 245);
+}
+.home2, td:nth-child(2) {
+    background-color: rgb(101, 116, 250);
+}
+.home3, td:nth-child(3) {
+    background-color: rgb(132, 119, 248);
+}
+.home4, td:nth-child(4) {
+    background-color: rgb(62, 93, 233);
+}
+tbody,td:hover{
+    background-color: rgb(65, 77, 243);
+}
+.home1:hover{
+    background-color: rgb(243, 159, 159);
+}
+.home2:hover{
+    background-color: rgb(243, 159, 159);
+}
+.home3:hover{
+    background-color: rgb(243, 159, 159);
+}
+.home4:hover{
+    background-color: rgb(243, 159, 159);
+}
+
+
